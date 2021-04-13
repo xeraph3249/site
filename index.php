@@ -12,7 +12,7 @@ $tirmCode = str_replace('시크릿 키 관련',$pid);
 
 function aes256De($destr)
 {
-	return trim;
+	return ;
 	//return trim(openssl_decrypt($destr, 시크릿 키));
 }
 	
