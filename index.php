@@ -7,7 +7,7 @@ $pid = $_GET["pid"];
 $CouponCode = 'SENAYAHO|GOGOSENA|danjangnimluv|COMINGSOON|kingadel|BIGUPDATE|NEWSCENARIO|DUDUDUNGA|legendsena|gumankm|VELVET|EVENTMATJIB|EVAN|8RAID8|4RAID4|dugudugu|LADY|WOWSENA|LADYKILLER|oneshot|KEEEEE|Imsohot|Happycoco|Reinforce|OLDRUDY|update|senaforever|SEYAHO|sknights2|HISENA2|7infinite7|tpqmsskdlcm2|GREATEVENT|2SEVEN2|SK2FORUM|senainssa|2S2E2V2E2N|COCOJOA|CHECKCHECK|2STHGINNEVES|SENAMOON|KEKESENA2';
 $Coupon = explode( '|', $CouponCode );
 $url = 'https://couponview.netmarble.com/coupon/sknightsmmo/1290/apply';
-$tirmCode = str_replace(' ', '+',$pid);
+$tirmCode = str_replace('시크릿 키 관련',$pid);
 	
 
 function aes256De($destr)
